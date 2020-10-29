@@ -1,0 +1,50 @@
+
+
+.comentarios{
+    margin-top: 70px;
+
+}
+
+.comentarios .total-comentarios{
+    font-weight: bold;
+    color: grey;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.comentarios .usuario{
+    padding: 20px;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid grey;
+    margin: 20px;
+}
+
+.comentarios .usuario .img-user .user{
+    width: 50px;
+    height: 50px;
+    background-color:rgb(51, 184, 245); /*Solo si no tiene foto de perfil*/
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px black;
+}
+
+.comentarios .usuario .descripcion-usuario{
+    margin-left: 20px;
+}
+
+.comentarios .usuario .descripcion-usuario .username{
+    font-weight: bold;
+}
+
+.comentarios .usuario .descripcion-usuario .fecha{
+    color: grey;
+    font-size: 12px;
+}
+
+.comentarios .usuario .comentario-user p{
+    margin-left: 70px;        
+    color: rgb(95, 95, 95);
+   
+}

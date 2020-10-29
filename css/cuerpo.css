@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+
+#primera-parte{
+	margin-top: 70px;
+	background: #f2f2f2;
+	
+}
+
+#primera-parte .contenido{
+	padding: 50px;
+	display:block
+}
+
+.contenido h2{
+	font-size: 30px;
+	color: grey;
+	margin-bottom: 30px;
+}	
+
+.contenido button{
+	text-decoration: none;
+	border:none;
+	width: 300px;
+	height: 40px;
+	background-color:#0984e3;
+	font-size: 20px;
+	border-radius: 5px;
+	color: white;
+	margin-bottom: 30px;
+	outline: none;
+	cursor: pointer;	
+}
+
+.contenido button:hover{
+	background-color:#0a78cc;
+	
+}
+
+.contenido p{
+	margin-bottom: 30px;
+	font-size: 15spx;
+}
+
+
+
+
+#segunda-parte{
+	text-align: center;
+}
+
+#segunda-parte h2{
+	color: rgb(0,194,203)
+}
+
+#segunda-parte .contenido2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.contenido2 img{
+	width: 150px;
+	height: 120px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.conocer{
+	width: 200px;
+	margin: 50px;
+	border: 2px solid #d8d8d8;
+	box-shadow: 1px 1px 7px;
+	
+}
+
+.conocer p{
+	margin: 10px;
+}
+
+
+#tercera-parte{
+	text-align: center;
+	width: 100%;
+
+}
+
+
+#tercera-parte .contenido3{
+	background: #222f3e;
+	flex-wrap: wrap;
+	justify-content: center;
+	height: 250px;
+	padding: 25px;
+
+}
+
+.contenido3 h2{
+	color: white;
+	font-size: 30px;
+	margin-top: 20px;
+}
+
+.contenido3 p{
+	color: white;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+.contenido3 button{
+	text-decoration: none;
+	border:none;
+	width: 300px;
+	height: 40px;
+	background-color:white;
+	font-size: 20px;
+	border-radius: 5px;
+	color: black;
+	margin-bottom: 30px;
+	outline: none;	
+}
+.contenido3 button:hover{
+	background-color: #f2f2f2; 
+}
+
+
+
+
+
+
+#cuarta-parte{
+	text-align: center;
+	width: 100%;
+}
+
+#cuarta-parte .contenido4{
+	flex-wrap: wrap;
+	justify-content: center;
+	height: 250px;
+	padding: 25px;
+
+}
+.contenido4 h2{
+	color: #222f3e;
+	font-size: 30px;
+	margin-top: 20px;
+}
+.contenido4 button{
+	text-decoration: none;
+	border:none;
+	width: 300px;
+	height: 40px;
+	background-color:#222f3e;
+	font-size: 20px;
+	border-radius: 5px;
+	color: white;
+	margin-top: 30px;
+	outline: none;	
+}
+.contenido4 button:hover{
+	border:2px solid black;
+	color: black;
+	background-color: #f2f2f2;
+}
+
+
+
+
+
+
+
+
+

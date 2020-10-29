@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.contenedor-paquetes{
+    margin-top: 100px;
+    margin:40px;
+}
+
+.contenedor-paquetes h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.contenedor-paquetes .paquetes{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f2f2f2;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contenedor-paquetes .paquetes section{
+    margin-right: 40px;
+    text-align: center;
+    border: 1px solid rgb(5, 180, 180);
+    width: 200px;
+    box-shadow:10px 10px 10px rgb(5, 180, 180) ;
+}
+
+.contenedor-paquetes .paquetes .paquete-comun{
+    box-shadow:10px 10px 10px rgb(226, 211, 0) ;
+}
+
+.contenedor-paquetes .paquetes section .precio{
+    display: block;
+    border-radius: 50%;
+
+}
+
+.contenedor-paquetes .paquetes section ul {
+    list-style: none;
+
+}
+
+
+
+
+
+
+

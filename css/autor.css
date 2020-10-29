@@ -1,0 +1,150 @@
+
+.contenedor-autor{
+    margin: 40px;
+    
+}
+
+.contenedor-autor .info-autor{
+    text-align: center;
+    margin-top: 100px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenedor-autor .info-autor .contacto-autor{
+    float: left;
+    width: 400px;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.contenedor-autor .info-autor .contacto-autor a:hover{
+    background-color: rgba(52, 167, 196, 0.4);
+}
+
+.contenedor-autor .info-autor .contacto-autor h2,img{
+    text-align: center;
+}
+
+.contenedor-autor .info-autor .contacto-autor a{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgb(0,194,204);
+    background-color:transparent;
+    border-radius: 3px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contenedor-autor .info-autor .contacto-autor a .icon-facebook-squared{
+    color:#3b5998 ;
+}
+
+.contenedor-autor .info-autor .contacto-autor a .icon-twitter-squared{
+    color: #55acee;
+}
+
+.contenedor-autor .info-autor .contacto-autor a .icon-instagram{
+    color:#125688;
+}
+
+.contenedor-autor .info-autor .contacto-autor a .icon-mail{
+    color: #ea4335;
+    
+}
+
+.contenedor-autor .info-autor img{
+    height: 300px;
+    border-radius: 50%;
+}
+
+.contenedor-autor .info-autor .informacion-personal{
+    width: 600px;
+    text-align: center;
+    
+}
+
+.contenedor-autor .info-autor .informacion-personal p{
+    margin-top: 30px;
+}
+
+.contenedor-autor h1{
+    text-align: center;
+}
+
+
+/*------ Estilos para cursos dados por el autor----*/
+
+
+
+.cursos-autor .curso-autor .miniatura{
+	width: 200px;
+    height: 118px;
+    margin-left: 20px;
+}
+
+.cursos-autor .curso-autor{
+    display: flex;
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 10%;
+    box-shadow: 3px 3px 10px rgb(0,194,204);
+    border-radius: 5px;
+    
+}
+
+.cursos-autor .curso-autor .contenido-descripcion{
+    margin-top: 24px;
+    height: 118px;
+    
+}
+
+.cursos-autor .curso-autor .principal .descripcion-curso-autor a{
+    text-decoration: none;
+    font-size: 20px;
+    color: grey;
+    margin-left: 20px;
+}
+
+.cursos-autor .curso-autor .contenido-descripcion{
+    margin-left: 20px;
+}
+
+.cursos-autor .curso-autor .contenido-descripcion .resumen-curso{
+    color: grey;
+}
+
+
+
+@media (max-width:990px ){
+
+            
+        .cursos-autor{
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .cursos-autor .curso-autor{
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid #d2d2d2;
+            box-shadow: 7px 7px 7px rgba(0,194,203,0.4);
+            width: 260px;
+            height:400px;
+            margin:20px;
+            
+        }
+
+        .cursos-autor .curso-autor .contenido-descripcion {
+            margin-top: -80px;
+            margin-right: 20px;
+            text-align: justify;
+}
+
+
+}
+/*Estilos para los cursos del autor*/

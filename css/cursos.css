@@ -1,0 +1,115 @@
+.contenido{
+	margin-top: 80px;
+	
+}
+/*Estilos para el acordeon*/
+
+.menu-acordeon{
+	margin-top:20px ;
+	float: left;
+	margin-left: 40px;
+	width: 250px;
+	border: 1px solid grey;
+}
+
+.menu-acordeon h2{
+	margin-bottom: 20px;
+}
+
+
+.menu-acordeon ul{
+	list-style: none;
+}
+
+.menu-acordeon ul li ul li a{
+	background-color:#ffffff;
+}
+
+.menu-acordeon ul a:hover{
+	background-color: rgba(202, 202, 202, 0.603);
+}
+
+.menu-acordeon ul li a span{
+	float: right;
+	transform: rotateY(180deg);
+}
+
+.menu-acordeon ul ul{
+	display: none;
+}
+
+
+
+.menu-acordeon ul li a{
+	text-decoration: none;
+	display: block;
+	width: 200px;
+	text-align: left;
+	margin-left: 20px;
+	background-color: #f2f2f2;
+	border: 1px solid #d8d8d8;
+	font-size: 20px;
+	color: rgb(80, 80, 80);
+}
+
+
+/* Estilos para la seccion de la descripcion del curso*/
+
+.cursos{
+	margin: 40px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cursos .curso{
+	display: flex;
+	flex-wrap: wrap;
+	border: 1px solid #d2d2d2;
+	border-radius: 10px;
+	box-shadow: 0px 3px 10px rgba(0,194,203,0.4);
+	width: 255px;
+	height:400px;
+	margin:20px;
+	
+}
+
+.cursos .curso .miniatura{
+	width: 200px;
+	height: 118px;
+	margin-left: 7px;
+}
+
+.cursos .curso .descripcion{
+	text-align: left;
+	margin-left: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cursos .curso .descripcion .tema{
+	text-decoration: none;
+	font-size: 30px;
+	color:black;
+}
+
+.cursos .curso .descripcion .tema:hover{
+	color: blue;
+	text-decoration: underline;
+}
+
+.cursos .curso .descripcion .resumen-curso{
+	color: grey;
+}
+
+.cursos .curso .descripcion .autor{
+	text-decoration: none;
+}
+
+.cursos .curso .descripcion .autor:hover{
+	text-decoration: underline;
+}
+
+
+
+
+

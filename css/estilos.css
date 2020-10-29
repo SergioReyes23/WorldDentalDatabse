@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: white;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background: white;
+    color: #fff;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    
+
+
+    box-shadow: 1px 1px 7px rgba(0,194,203,0.4) ;
+}
+
+footer{
+    width: 100% ;
+    background-color: white;
+    color: white;
+    border-top: 1px solid #D0D0D0;
+    margin-top: 20px;
+}
+
+
+.contenedor {
+    width: 98%;
+    margin: auto;
+
+}
+
+
+h2{
+	color:grey;
+	
+}
+
+header .contenedor {
+    display: table;
+}
+
+.relleno{
+	margin-top: 80px;
+	margin-left: 20px;
+	margin-right: 20px;
+	
+}	
+
+p{
+    color: black;
+}
+
+select{
+    width: 100px;
+    height: 25px;
+    border:none;
+    background-color: transparent;
+}
+
+.idioma .idiomadiv{
+    background-color: #d0d0d0;
+    border-radius: 4px;
+}
+
+.contenido{
+    text-align: center;
+}
+
+.contenido div{
+    margin-bottom: 90px;
+}
+
+
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}

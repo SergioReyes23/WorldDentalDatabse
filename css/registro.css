@@ -1,0 +1,155 @@
+
+.registro{
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 80px;
+	margin-left: 50px;
+}
+
+.registro hr{
+
+	width: 500px;
+	color: #FA356C;
+}
+
+.registro h1{
+	font-size: 40px;
+	text-align: center;
+	
+}
+
+.informacion h3{
+	margin-top: 20px;
+	color: grey;
+}
+
+.informacion{
+	align-items: center;
+}
+
+.informacion input{
+	width: 250px;
+	height: 38px;
+	border: none;
+	outline: none;
+}
+
+.informacion .input-nom{
+	width: 300px;
+	height: 40px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	border:1px solid #d8d8d8;
+	margin-bottom: 3px;
+	margin-top: 20px;
+	display: flex;
+
+}
+
+.informacion .input-ape{
+	width: 300px;
+	height: 40px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	border:1px solid #d8d8d8;
+	margin-bottom: 3px;
+	display: flex;
+	
+}
+
+.informacion .inputuser{
+	width: 300px;
+	height: 40px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	border:1px solid #d8d8d8;
+	margin-bottom: 3px;
+	display: flex;
+
+}
+
+
+
+.informacion .inputpass{
+	width: 300px;
+	height: 40px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	border:1px solid #d8d8d8;
+	margin-bottom: 3px;
+	display: flex;
+	
+}
+
+.informacion .icon-user{
+	margin-top: 5px;
+	color: grey;
+}
+
+.informacion .icon-mail-alt{
+	margin-top: 5px;
+	color: grey;
+}
+
+.informacion .icon-lock{
+	margin-top: 5px;
+	color: grey;
+}
+
+.informacion .icon-user-1{
+	margin-top: 5px;
+	color: grey;
+}
+
+.informacion .icon-users{
+	margin-top: 5px;
+	color: grey;
+}
+
+
+.informacion button{
+	background-color: #3cb46e;
+	width: 400px;
+	height: 40px;
+	border:none;
+	outline: none;
+	color: white;
+	border-radius: 5px;
+}
+
+.informacion button:hover{
+	background-color:  #37a866;
+	width: 410px;
+	height: 45px;
+	box-shadow: 0 2px 2px grey;
+	border-radius: 5px;
+
+}
+
+
+.acuerdo{
+	text-align: center;
+	font-size: small;
+	color: grey;
+}
+
+.caja{
+	display: flex;
+	flex-wrap: wrap;
+	margin:70px;
+}
+
+.caja img {
+	width: 500px;
+	height: 400px;
+	margin-left: 50px;
+}
+
+
+
+
+

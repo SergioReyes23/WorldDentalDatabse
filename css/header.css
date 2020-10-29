@@ -1,0 +1,178 @@
+/* Estilos responsivo para cuando la pantalla este chica */
+
+#menu-bar {
+	display: none;
+}
+
+/* Estilos para la barra de busqueda minimizada */
+.menu .barra {
+	display: flex;
+	border: 1px solid #d8d8d8;
+	border-radius: 4px;
+	width: 400px;
+	margin-right: 30px;
+	margin-top: 10px;
+	margin-left:10px;
+	height: 50px;
+
+	}
+
+	.menu .barra:hover {
+		background-color: #f2f2f2;
+
+	}
+
+	.menu .barra button:hover{
+		background-color: #d8d8d8;
+	}
+
+	.barra input:hover{
+		background-color: #f2f2f2;
+	}
+
+
+
+.barra button{
+	width: 40px;
+	background-color: transparent;
+	outline: none;
+	border: none;
+
+}
+
+.barra input{
+	border: 1px;	
+	width: 390px;
+	outline: none;
+}
+
+/* Estilos para el navbar */
+.menu{
+	position: absolute;
+	top:100%;
+	left:0;
+	width: 100%;
+	height: 100vh;
+	background: white;
+	transition: all 0.5s;
+	transform: translateX(200%);
+}
+
+.menu a{
+	display: block;
+	margin-left: 2px;
+	border-radius: 5px;
+	color: black;
+	height: 50px;
+	padding: 15px;
+	text-decoration: none;
+	border-bottom: 1px solid rgba(0,255,255,0.3);
+
+}
+
+
+.menu a:hover{
+	background:rgba(0,194,203,0.4);
+}
+
+#menu-bar:checked ~ .menu{
+	transform: translateX(0%);
+}
+
+/* Estilos para el icono de menu */
+
+label .imagen{
+	width: 40px;
+	height: 55px;
+	float: right;
+	right: 0;
+	margin-top:10px; 
+	margin-right: 20px;
+
+}
+
+/* Estilos para cuando la pantalla este completa */
+
+@media (min-width:1125px ){
+	.menu{
+		position: static;
+		width: auto;
+		height: auto;
+		transform: translateX(0%);
+		float: right;
+		right: 0;
+		display: flex;
+
+	}
+
+	.menu a{
+		border:none;
+		
+	}
+
+	header label{
+		display: none;
+	}
+
+	.contenedor a{
+		margin-top: 10px;
+		text-decoration: none; 			
+	}
+
+	/*Estilo de la barra en pantalla completa*/
+
+	.menu .barra {
+	display: flex;
+	border: 1px solid #d8d8d8;
+	border-radius: 4px;
+	width: 400px;
+	margin-right: 30px;
+	margin-left:10px;
+	margin-top: 10px;
+	height: 50px;
+
+	}
+
+	.menu .barra:hover {
+		background-color: #f2f2f2;
+	}
+
+	.barra input:hover{
+		background-color: #f2f2f2;
+	}
+
+
+	.barra button{
+	width: 40px;
+	background-color: transparent;
+	outline: none;
+	}
+
+	.barra input{
+	border: 1px;	
+	width: 390px;
+	outline: none;
+	}
+
+
+
+
+	.barra button:hover{
+	cursor: pointer;
+	background-color: #d0d0d0;
+	}
+
+
+
+}
+
+.contenedor a img{
+
+	width: 150px;
+	height: 60px;
+	margin-left: 25px;
+	margin-top: 5px;
+}
+
+
+

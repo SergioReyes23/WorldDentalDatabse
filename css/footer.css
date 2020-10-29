@@ -1,0 +1,87 @@
+
+.idioma{
+	display: flex;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+
+}
+
+.idioma p{
+	color: grey;
+	margin-top: 3px;
+	outline: none;
+}
+
+
+.todocontenedor{
+	width: 100%;
+	
+}
+
+.containerbody{
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:center;
+	margin-top: 50px;
+
+}
+
+#footer{
+	width: 100%;
+}
+
+#footer .container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 50px;
+}
+
+.columna1{
+	width: 200px;
+	margin: 50px;
+	text-align: center;
+}
+.columna1 a{
+	margin-left: 20px;
+	font-size: 20px;
+}
+.columna1 img{
+	width: 200px;
+	height: 100px;
+}
+
+
+
+.columna2{
+	width: 250px;
+	margin: 50px;
+}
+.columna2 a{
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+
+
+
+.columna3{
+	width: 350px;
+	margin: 50px;
+	text-align: center;
+}
+.columna3 p{
+	margin-top: 55px;
+}
+
+
+
+
+
+
+
+
+
+
